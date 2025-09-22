@@ -2,6 +2,13 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
 
+A minimal Angular app to calculate the sum of two numbers, maintain a history of sums, and clear the history. Built using template-driven forms ([(ngModel)]) without services.
+
+## Features
+
+1. Enter two numbers and calculate their sum
+2. Maintain a history of all calculated sums
+3. 
 ## Development server
 
 To start a local development server, run:
@@ -11,6 +18,12 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Usage
+
+1. Enter two numbers.
+2. Click Calculate Sum → result displays below.
+3. View history of sums.
 
 ## Code scaffolding
 
